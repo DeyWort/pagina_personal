@@ -1,10 +1,17 @@
 project:
   type: website
   output-dir: _site
+  # Los documentos de docs/ (constitución y especificación) viven en el repo
+  # pero NO se publican ni entran al buscador del sitio. Solo se renderizan
+  # páginas .qmd; excluimos docs/ de forma explícita.
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
+    - "!docs/"
 
 website:
   
-  site-url: "https://tuusuario.github.io/mi_pagina"
+  site-url: "https://deywort.github.io/pagina_personal"
   navbar:
     left:
       - href: index.qmd
