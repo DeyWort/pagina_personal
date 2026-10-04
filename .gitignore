@@ -9,6 +9,9 @@ wheels/
 # Virtual environments
 .venv
 
+# Documentos internos del proyecto (no se publican en el repo)
+/docs/
+
 # Quarto
 /.quarto/
 **/*.quarto_ipynb

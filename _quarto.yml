@@ -1,9 +1,8 @@
 project:
   type: website
   output-dir: _site
-  # Los documentos de docs/ (constitución y especificación) viven en el repo
-  # pero NO se publican ni entran al buscador del sitio. Solo se renderizan
-  # páginas .qmd; excluimos docs/ de forma explícita.
+  # Solo se renderizan páginas .qmd. Se excluye docs/ (documentos internos del
+  # proyecto) para que no se publiquen ni entren al buscador del sitio.
   render:
     - "*.qmd"
     - "**/*.qmd"

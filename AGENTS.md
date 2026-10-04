@@ -33,10 +33,9 @@ forma clara los permisos de cámara, los estados de carga y los errores.
 
 ## Flujo de trabajo obligatorio
 
-1. Revisar `README.md`, la constitución (`docs/constitucion.md`) y la
-   especificación activa (`docs/especificacion.md`) antes de modificar código.
-   Si alguno de esos documentos aún no existe, no inventar sus requisitos:
-   trabajar con el alcance descrito en `README.md`.
+1. Tener claro el requisito antes de modificar código. Si existe una
+   especificación activa, revisarla; si no, no inventar requisitos: trabajar con
+   el alcance descrito en `README.md`.
 2. Convertir cada cambio en un requisito o tarea verificable antes de
    implementarlo.
 3. Reutilizar componentes, estilos y utilidades existentes antes de crear
