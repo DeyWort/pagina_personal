@@ -1,0 +1,46 @@
+<!-- Visor de la galería (lightbox): abre la imagen ampliada, navega con las
+     flechas y se cierra con Esc o clic fuera. Se incluye al final del <body>
+     desde _quarto.yml (include-after-body). -->
+<script>
+(function () {
+  var shots = Array.prototype.slice.call(document.querySelectorAll('.gallery .shot img'));
+  if (!shots.length) return;
+
+  var overlay = document.createElement('div');
+  overlay.className = 'lb';
+  overlay.setAttribute('role', 'dialog');
+  overlay.setAttribute('aria-modal', 'true');
+  overlay.setAttribute('aria-label', 'Visor de fotografías');
+  overlay.innerHTML =
+    '<button class="lb__btn lb__close" aria-label="Cerrar">&times;</button>' +
+    '<button class="lb__btn lb__prev" aria-label="Anterior">&#8249;</button>' +
+    '<img alt="">' +
+    '<button class="lb__btn lb__next" aria-label="Siguiente">&#8250;</button>' +
+    '<p class="lb__cap"></p>';
+  document.body.appendChild(overlay);
+
+  var imgEl = overlay.querySelector('img');
+  var capEl = overlay.querySelector('.lb__cap');
+  var i = 0;
+
+  function show(n) {
+    i = (n + shots.length) % shots.length;
+    imgEl.src = shots[i].src;
+    capEl.textContent = shots[i].getAttribute('data-cap') || shots[i].alt || '';
+    overlay.classList.add('open');
+  }
+  function close() { overlay.classList.remove('open'); }
+
+  shots.forEach(function (s, k) { s.addEventListener('click', function () { show(k); }); });
+  overlay.querySelector('.lb__next').addEventListener('click', function (e) { e.stopPropagation(); show(i + 1); });
+  overlay.querySelector('.lb__prev').addEventListener('click', function (e) { e.stopPropagation(); show(i - 1); });
+  overlay.querySelector('.lb__close').addEventListener('click', close);
+  overlay.addEventListener('click', function (e) { if (e.target === overlay) close(); });
+  document.addEventListener('keydown', function (e) {
+    if (!overlay.classList.contains('open')) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowRight') show(i + 1);
+    if (e.key === 'ArrowLeft') show(i - 1);
+  });
+})();
+</script>

@@ -1,0 +1,127 @@
+---
+pagetitle: "Guillermo Pineda Ramírez · Ciencia de datos"
+lang: es
+page-layout: full
+---
+
+::: hero
+::: hero__text
+[Ciencia de datos · Machine learning · Aplicaciones]{.eyebrow}
+
+# Guillermo Pineda Ramírez
+
+[Construyo soluciones de datos de punta a punta: convierto datos en decisiones y modelos en productos.]{.lead}
+
+Primer lugar en el **Hackathon Innovation Fest 2025** del ICTI de Michoacán, donde apliqué machine learning para optimizar la logística y la siembra en el campo michoacano. Estudio Tecnologías para la Información en Ciencias en la **UNAM (Campus Morelia)** y me interesan el ML aplicado, la visualización de datos y llevar modelos a producción.
+
+::: cta-row
+[Ver proyectos](proyectos/index.qmd){.primary}
+[Contacto](#contacto){.secondary}
+:::
+:::
+
+::: hero__photo
+![](fotos/selfie.jpg){.nolightbox}
+:::
+:::
+
+::: sec
+::: sec__head
+## Mi stack tecnológico
+
+Herramientas con las que construyo análisis, modelos y aplicaciones.
+:::
+
+{{< include partials/stack-icons.html >}}
+:::
+
+::: sec
+::: sec__head
+## Experiencia y logros
+
+Resultados y experiencias que respaldan mi trabajo.
+:::
+
+::: cards
+::: card-item
+<img class="card__media" src="fotos/primer_lugar_inovation_fest.jpg" alt="Primer lugar en el Innovation Fest 2025">
+
+[1er lugar · 2025]{.tag}
+
+### Hackathon Innovation Fest 2025
+
+Primer lugar en el Innovation Fest 2025 del ICTI de Michoacán con un enfoque de machine learning para mejorar la eficiencia, seguridad y optimización de la cadena de abastecimiento, la logística y la siembra en el campo michoacano.
+:::
+
+::: card-item
+<img class="card__media" src="fotos/visita_oracle.jpg" alt="Centros tecnológicos: Oracle, Intel y NXP">
+
+[Visitas técnicas]{.tag}
+
+### Centros tecnológicos
+
+Recorrí instalaciones de Oracle, Intel y NXP para entender de cerca sistemas complejos, hardware y soluciones escalables de la industria.
+:::
+
+::: card-item
+<img class="card__media" src="fotos/eds_int_summer_school.jpg" alt="EDS International Summer School 2026">
+
+[Formación]{.tag}
+
+### EDS International Summer School 2026
+
+Curso de verano sobre diseño de circuitos integrados: de los dispositivos a la implementación en silicio (Guadalajara, 2026).
+:::
+:::
+:::
+
+::: sec
+::: sec__head
+## Galería
+
+Momentos de proyectos, formación y visitas técnicas. Haz clic en una imagen para ampliarla.
+:::
+
+::: gallery
+<figure class="shot">
+  <img src="fotos/primer_lugar_inovation_fest.jpg" alt="Primer lugar · Innovation Fest 2025" data-cap="Primer lugar · Innovation Fest 2025">
+  <figcaption>Primer lugar · Innovation Fest 2025</figcaption>
+</figure>
+<figure class="shot">
+  <img src="fotos/eds_int_summer_school.jpg" alt="EDS International Summer School" data-cap="EDS International Summer School">
+  <figcaption>EDS International Summer School</figcaption>
+</figure>
+<figure class="shot">
+  <img src="fotos/eds_int_summer_school2.jpg" alt="EDS Summer School · segunda sesión" data-cap="EDS Summer School · segunda sesión">
+  <figcaption>EDS Summer School · segunda sesión</figcaption>
+</figure>
+<figure class="shot">
+  <img src="fotos/visita_oracle.jpg" alt="Visita a Oracle" data-cap="Visita a Oracle">
+  <figcaption>Visita a Oracle</figcaption>
+</figure>
+<figure class="shot">
+  <img src="fotos/visita_oracle2.jpg" alt="Oracle · segunda visita" data-cap="Oracle · segunda visita">
+  <figcaption>Oracle · segunda visita</figcaption>
+</figure>
+<figure class="shot">
+  <img src="fotos/visita_intel.jpg" alt="Visita a Intel" data-cap="Visita a Intel">
+  <figcaption>Visita a Intel</figcaption>
+</figure>
+<figure class="shot">
+  <img src="fotos/visita_nxp.jpg" alt="Visita a NXP" data-cap="Visita a NXP">
+  <figcaption>Visita a NXP</figcaption>
+</figure>
+:::
+:::
+
+::: sec
+::: sec__head
+## Contacto
+:::
+
+Si quieres colaborar o platicar sobre tecnología, ciencia de datos o proyectos aplicados, aquí puedes encontrarme:
+
+- **Email:** [pinedaramirezmemo@gmail.com](mailto:pinedaramirezmemo@gmail.com)
+- **LinkedIn:** [guillermo-pineda-ramirez](https://www.linkedin.com/in/guillermo-pineda-ramirez/)
+- **GitHub:** [DeyWort](https://github.com/DeyWort)
+:::

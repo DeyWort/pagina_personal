@@ -1,0 +1,7 @@
+[project]
+name = "pagina-personal"
+version = "0.1.0"
+description = "Mi pagina personal; blog y portafolio"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []

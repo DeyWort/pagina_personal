@@ -1,0 +1,16 @@
+---
+title: "Proyectos"
+listing:
+- id: recent-proyectos
+  contents: proyectos
+  type: grid
+  categories: true
+  sort: "date desc"
+  fields: [image, title, description, categories]
+page-layout: full
+---
+
+## Notebooks y proyectos recientes
+
+::: {#recent-proyectos}
+:::
