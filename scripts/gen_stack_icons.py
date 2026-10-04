@@ -5,7 +5,7 @@ depender de la red en tiempo de ejecucion. Comentarios en espanol."""
 
 import os, re, urllib.request
 
-REPO = "/home/guillermo/pagina_personal"
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(REPO, "partials", "stack-icons.html")
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 
